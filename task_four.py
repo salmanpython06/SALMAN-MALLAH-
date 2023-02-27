@@ -12,11 +12,46 @@
 name = []
 height = []
 contact = []
-for _ in range(10):
-    name.append(input('enter your name: '))
-    height.append(float(input('enter your height: ')))
-    contact.append(int(input('enter your contact number: ')))
 
+name.append(input('enter your name: '))
+height.append(float(input('enter your height: ')))
+contact.append(int(input('enter your contact number: ')))
+
+name.append(input('enter your name: '))
+height.append(float(input('enter your height: ')))
+contact.append(int(input('enter your contact number: ')))
+
+name.append(input('enter your name: '))
+height.append(float(input('enter your height: ')))
+contact.append(int(input('enter your contact number: ')))
+
+name.append(input('enter your name: '))
+height.append(float(input('enter your height: ')))
+contact.append(int(input('enter your contact number: ')))
+
+name.append(input('enter your name: '))
+height.append(float(input('enter your height: ')))
+contact.append(int(input('enter your contact number: ')))
+
+name.append(input('enter your name: '))
+height.append(float(input('enter your height: ')))
+contact.append(int(input('enter your contact number: ')))
+
+name.append(input('enter your name: '))
+height.append(float(input('enter your height: ')))
+contact.append(int(input('enter your contact number: ')))
+
+name.append(input('enter your name: '))
+height.append(float(input('enter your height: ')))
+contact.append(int(input('enter your contact number: ')))
+
+name.append(input('enter your name: '))
+height.append(float(input('enter your height: ')))
+contact.append(int(input('enter your contact number: ')))
+
+name.append(input('enter your name: '))
+height.append(float(input('enter your height: ')))
+contact.append(int(input('enter your contact number: ')))
 
 customer_table = {'customer_name': name, 'customer_height': height,
                    'customer_contact': contact }
@@ -24,19 +59,11 @@ customer_table = {'customer_name': name, 'customer_height': height,
 print(customer_table['customer_name'])
 
 
-
+"""
 # Task 2
 # Design an online admission for Skillvention. The fields are same as 
 # mentioned in the admission form 
-
-# Admission form kesa hota ???
-# Apko admission form filll krny k liye diya hoga na ??
-# Name
-# Email
-# Address
-# Course
-# Phone #
-# Ye sub user details leni hao just
+"""
 # code:
 name = input('Enter your name: ')
 email = input('Enter your email: ')
@@ -52,9 +79,10 @@ form_dict = {"name": name,
         }
 print(form_dict)
 
+"""
 # Task 3
 # Create a login and registration form for your website "Python Agency
-
+"""
 # code: 
 # registration form
 name = input('enter your name: ')
@@ -68,7 +96,4 @@ print('Login Form......\n')
 email = input('Enter you email: ')
 password = input('Enter you password')
 
-if credentials['email'].lower() == email.lower() and credentials['password'].lower() == password.lower():
-    print('Login successful')
-else:
-    print('password or email not matched!')
+print(f'Is login  successful {email==credentials["email"] and password==credentials["password"]}')

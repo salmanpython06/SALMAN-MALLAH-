@@ -1,10 +1,11 @@
+# code by : SALMAN MALLAH
 import math
 
-# Task 1
+"""# Task 1
 # Design a calculator that takes 2 values from user to apply mathematical
 # operations Addition, subtraction, and division, multiplication, floor
 # division.
-
+"""
 # taking inputs from user:
 number_one = int(input('Enter first number: '))
 number_two = int(input('Enter second number: '))
@@ -15,21 +16,21 @@ print(f"Multiplication of {number_one} and {number_two} = {number_one * number_t
 print(f"Division of {number_one} by {number_two} = {number_one / number_two}")
 
 
-# Task 2
+"""# Task 2
 # Takes 2 arguments from user and check whether they are equal or no
-
+"""
 # taking two integers from user
 int_one = int(input('enter a number: '))
 int_two = int(input('enter anohter number: '))
 print(f"Is {int_one} and {int_two} are equal?: {int_one == int_two} ")
 
 
-
+"""
 # Task 3
 # Design a system that calculates the area of a plot.
 # code:
 # as we know area can be find with product of length and width:
-
+"""
 # taking width and length from user
 width = int(input('Enter the width of plot: '))
 length = int(input('Enter the width of plot: '))
@@ -37,7 +38,7 @@ print(f"If the width: {width} and length: {length} the area will be: {width*leng
 
 
 
-# Task 4
+"""# Task 4
 # Design a BMI system both in (US and Metric unit) .
 # Just like this
 # https://www.calculator.net/bmi-calculator.html
@@ -46,13 +47,14 @@ print(f"If the width: {width} and length: {length} the area will be: {width*leng
 # underweight or overweight. Just BMI indicator.
 
 # formula: BMI = weight (kg) / (height (m))^2
+"""
 # taking inputs from user
 weight = int(input('Enter weight in Kg: '))
 height = int(input('Enter height in Meters: '))
 result = weight / ((height)**2)
 print(result)
 
-
+"""
 # Task 5
 # Create a program that convert –
 # User weight in kG into pounds , and
@@ -61,9 +63,7 @@ print(result)
 # Area of a trapezoid –
 # Area of a parallelogram
 # Calculate surface volume and area of a cylinder.
-
-
-
+"""
 # kg into pounds
 # to convert kg into pound: formula: pounds = kg * 2.20462
 # taking the input from user
@@ -103,11 +103,11 @@ print(f"The area of parallelogram is: {area}")
 
 
 
-# Calculate surface volume and area of a cylinder.
+"""# Calculate surface volume and area of a cylinder.
 # To calculate the surface area and volume of a cylinder,
 # you need to know the radius of the base (r) and the height (h) of the cylinder.
 # The formula for the surface area (A) of a cylinder is:
-
+"""
 # Surface Area:
 # A = 2π*radius² + 2π*radius*height
 height_of_cylinder = float(input("Enter the height of cylinder: "))
